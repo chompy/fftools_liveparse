@@ -4,7 +4,7 @@ const ROLE_TANK = "tank";
 const ROLE_HEALER = "healer";
 const ROLE_DPS = "dps";
 var ROLE_TABLE = {
-    [ROLE_HEALER]: ["sch", "whm", "ast"],
+    [ROLE_HEALER]: ["sch", "whm", "ast", "sge"],
     [ROLE_TANK]: ["war", "drk", "gnb", "pld"]
 };
 var ENCOUNTER_ELEMENT = document.createElement("div");
